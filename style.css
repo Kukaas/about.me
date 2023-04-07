@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(images/bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 109vh;
+}
+
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    border-radius: 10px;
+    height: 530px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+img{
+    margin-top: 4%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box h1{
+    padding-top: 10px;
+    font-size: 28px;
+    letter-spacing: 2.5px;
+    background: none;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    background: none;
+    font-weight: 150;
+}
+
+p{
+    background: none;
+    text-align: justify;
+    margin: 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 7px;
+}
+
+ul li a img{
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+ul li a img:hover{
+    filter: invert(0.8);
+}
+
+form{
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+}
+
+form textarea{
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    height: 70px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+form textarea::placeholder{
+    color: #fff;
+}
+
+form button{
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+form button:hover{
+    background: #fff;
+    color: #000;
+}
