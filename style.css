@@ -69,36 +69,3 @@ ul li a img{
 ul li a img:hover{
     filter: invert(0.8);
 }
-
-form{
-    padding-top: 20px;
-    position: relative;
-    align-items: center;
-}
-
-form textarea{
-    background: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    height: 70px;
-    width: 50%;
-    border-radius: 5px;
-}
-
-form textarea::placeholder{
-    color: #fff;
-}
-
-form button{
-    margin-top: 20px;
-    height: 30px;
-    width: 60px;
-    border-radius: 5px;
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-form button:hover{
-    background: #fff;
-    color: #000;
-}
